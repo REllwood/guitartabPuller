@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F095ABF1FA30A1500C38BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F095ABE1FA30A1500C38BC3 /* AppDelegate.swift */; };
+		7F095AC11FA30A1500C38BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F095AC01FA30A1500C38BC3 /* ViewController.swift */; };
+		7F095AC41FA30A1500C38BC3 /* GuitarTabGrabber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F095AC21FA30A1500C38BC3 /* GuitarTabGrabber.xcdatamodeld */; };
+		7F095AC61FA30A1500C38BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F095AC51FA30A1500C38BC3 /* Assets.xcassets */; };
+		7F095AC91FA30A1500C38BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F095AC71FA30A1500C38BC3 /* Main.storyboard */; };
+		7F095AD41FA30A1500C38BC3 /* GuitarTabGrabberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F095AD31FA30A1500C38BC3 /* GuitarTabGrabberTests.swift */; };
+		7F095ADF1FA30A1500C38BC3 /* GuitarTabGrabberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F095ADE1FA30A1500C38BC3 /* GuitarTabGrabberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F095AD01FA30A1500C38BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F095AB31FA30A1500C38BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F095ABA1FA30A1500C38BC3;
+			remoteInfo = GuitarTabGrabber;
+		};
+		7F095ADB1FA30A1500C38BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F095AB31FA30A1500C38BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F095ABA1FA30A1500C38BC3;
+			remoteInfo = GuitarTabGrabber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F095ABB1FA30A1500C38BC3 /* GuitarTabGrabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarTabGrabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F095ABE1FA30A1500C38BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F095AC01FA30A1500C38BC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F095AC31FA30A1500C38BC3 /* GuitarTabGrabber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuitarTabGrabber.xcdatamodel; sourceTree = "<group>"; };
+		7F095AC51FA30A1500C38BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F095AC81FA30A1500C38BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F095ACA1FA30A1500C38BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F095ACF1FA30A1500C38BC3 /* GuitarTabGrabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuitarTabGrabberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F095AD31FA30A1500C38BC3 /* GuitarTabGrabberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTabGrabberTests.swift; sourceTree = "<group>"; };
+		7F095AD51FA30A1500C38BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F095ADA1FA30A1500C38BC3 /* GuitarTabGrabberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuitarTabGrabberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F095ADE1FA30A1500C38BC3 /* GuitarTabGrabberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTabGrabberUITests.swift; sourceTree = "<group>"; };
+		7F095AE01FA30A1500C38BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F095AB81FA30A1500C38BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F095ACC1FA30A1500C38BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F095AD71FA30A1500C38BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F095AB21FA30A1500C38BC3 = {
+			isa = PBXGroup;
+			children = (
+				7F095ABD1FA30A1500C38BC3 /* GuitarTabGrabber */,
+				7F095AD21FA30A1500C38BC3 /* GuitarTabGrabberTests */,
+				7F095ADD1FA30A1500C38BC3 /* GuitarTabGrabberUITests */,
+				7F095ABC1FA30A1500C38BC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F095ABC1FA30A1500C38BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F095ABB1FA30A1500C38BC3 /* GuitarTabGrabber.app */,
+				7F095ACF1FA30A1500C38BC3 /* GuitarTabGrabberTests.xctest */,
+				7F095ADA1FA30A1500C38BC3 /* GuitarTabGrabberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F095ABD1FA30A1500C38BC3 /* GuitarTabGrabber */ = {
+			isa = PBXGroup;
+			children = (
+				7F095ABE1FA30A1500C38BC3 /* AppDelegate.swift */,
+				7F095AC01FA30A1500C38BC3 /* ViewController.swift */,
+				7F095AC51FA30A1500C38BC3 /* Assets.xcassets */,
+				7F095AC71FA30A1500C38BC3 /* Main.storyboard */,
+				7F095ACA1FA30A1500C38BC3 /* Info.plist */,
+				7F095AC21FA30A1500C38BC3 /* GuitarTabGrabber.xcdatamodeld */,
+			);
+			path = GuitarTabGrabber;
+			sourceTree = "<group>";
+		};
+		7F095AD21FA30A1500C38BC3 /* GuitarTabGrabberTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F095AD31FA30A1500C38BC3 /* GuitarTabGrabberTests.swift */,
+				7F095AD51FA30A1500C38BC3 /* Info.plist */,
+			);
+			path = GuitarTabGrabberTests;
+			sourceTree = "<group>";
+		};
+		7F095ADD1FA30A1500C38BC3 /* GuitarTabGrabberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F095ADE1FA30A1500C38BC3 /* GuitarTabGrabberUITests.swift */,
+				7F095AE01FA30A1500C38BC3 /* Info.plist */,
+			);
+			path = GuitarTabGrabberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F095ABA1FA30A1500C38BC3 /* GuitarTabGrabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F095AE31FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabber" */;
+			buildPhases = (
+				7F095AB71FA30A1500C38BC3 /* Sources */,
+				7F095AB81FA30A1500C38BC3 /* Frameworks */,
+				7F095AB91FA30A1500C38BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuitarTabGrabber;
+			productName = GuitarTabGrabber;
+			productReference = 7F095ABB1FA30A1500C38BC3 /* GuitarTabGrabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F095ACE1FA30A1500C38BC3 /* GuitarTabGrabberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F095AE61FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabberTests" */;
+			buildPhases = (
+				7F095ACB1FA30A1500C38BC3 /* Sources */,
+				7F095ACC1FA30A1500C38BC3 /* Frameworks */,
+				7F095ACD1FA30A1500C38BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F095AD11FA30A1500C38BC3 /* PBXTargetDependency */,
+			);
+			name = GuitarTabGrabberTests;
+			productName = GuitarTabGrabberTests;
+			productReference = 7F095ACF1FA30A1500C38BC3 /* GuitarTabGrabberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F095AD91FA30A1500C38BC3 /* GuitarTabGrabberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F095AE91FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabberUITests" */;
+			buildPhases = (
+				7F095AD61FA30A1500C38BC3 /* Sources */,
+				7F095AD71FA30A1500C38BC3 /* Frameworks */,
+				7F095AD81FA30A1500C38BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F095ADC1FA30A1500C38BC3 /* PBXTargetDependency */,
+			);
+			name = GuitarTabGrabberUITests;
+			productName = GuitarTabGrabberUITests;
+			productReference = 7F095ADA1FA30A1500C38BC3 /* GuitarTabGrabberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F095AB31FA30A1500C38BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rhys Ellwood";
+				TargetAttributes = {
+					7F095ABA1FA30A1500C38BC3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					7F095ACE1FA30A1500C38BC3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F095ABA1FA30A1500C38BC3;
+					};
+					7F095AD91FA30A1500C38BC3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F095ABA1FA30A1500C38BC3;
+					};
+				};
+			};
+			buildConfigurationList = 7F095AB61FA30A1500C38BC3 /* Build configuration list for PBXProject "GuitarTabGrabber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F095AB21FA30A1500C38BC3;
+			productRefGroup = 7F095ABC1FA30A1500C38BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F095ABA1FA30A1500C38BC3 /* GuitarTabGrabber */,
+				7F095ACE1FA30A1500C38BC3 /* GuitarTabGrabberTests */,
+				7F095AD91FA30A1500C38BC3 /* GuitarTabGrabberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F095AB91FA30A1500C38BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F095AC61FA30A1500C38BC3 /* Assets.xcassets in Resources */,
+				7F095AC91FA30A1500C38BC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F095ACD1FA30A1500C38BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F095AD81FA30A1500C38BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F095AB71FA30A1500C38BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F095AC11FA30A1500C38BC3 /* ViewController.swift in Sources */,
+				7F095ABF1FA30A1500C38BC3 /* AppDelegate.swift in Sources */,
+				7F095AC41FA30A1500C38BC3 /* GuitarTabGrabber.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F095ACB1FA30A1500C38BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F095AD41FA30A1500C38BC3 /* GuitarTabGrabberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F095AD61FA30A1500C38BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F095ADF1FA30A1500C38BC3 /* GuitarTabGrabberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F095AD11FA30A1500C38BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F095ABA1FA30A1500C38BC3 /* GuitarTabGrabber */;
+			targetProxy = 7F095AD01FA30A1500C38BC3 /* PBXContainerItemProxy */;
+		};
+		7F095ADC1FA30A1500C38BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F095ABA1FA30A1500C38BC3 /* GuitarTabGrabber */;
+			targetProxy = 7F095ADB1FA30A1500C38BC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F095AC71FA30A1500C38BC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F095AC81FA30A1500C38BC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F095AE11FA30A1500C38BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F095AE21FA30A1500C38BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7F095AE41FA30A1500C38BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuitarTabGrabber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhys-Ellwood.GuitarTabGrabber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7F095AE51FA30A1500C38BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuitarTabGrabber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhys-Ellwood.GuitarTabGrabber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7F095AE71FA30A1500C38BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuitarTabGrabberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhys-Ellwood.GuitarTabGrabberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarTabGrabber.app/Contents/MacOS/GuitarTabGrabber";
+			};
+			name = Debug;
+		};
+		7F095AE81FA30A1500C38BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuitarTabGrabberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhys-Ellwood.GuitarTabGrabberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarTabGrabber.app/Contents/MacOS/GuitarTabGrabber";
+			};
+			name = Release;
+		};
+		7F095AEA1FA30A1500C38BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuitarTabGrabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhys-Ellwood.GuitarTabGrabberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GuitarTabGrabber;
+			};
+			name = Debug;
+		};
+		7F095AEB1FA30A1500C38BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuitarTabGrabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhys-Ellwood.GuitarTabGrabberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GuitarTabGrabber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F095AB61FA30A1500C38BC3 /* Build configuration list for PBXProject "GuitarTabGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F095AE11FA30A1500C38BC3 /* Debug */,
+				7F095AE21FA30A1500C38BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F095AE31FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F095AE41FA30A1500C38BC3 /* Debug */,
+				7F095AE51FA30A1500C38BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F095AE61FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F095AE71FA30A1500C38BC3 /* Debug */,
+				7F095AE81FA30A1500C38BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F095AE91FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F095AEA1FA30A1500C38BC3 /* Debug */,
+				7F095AEB1FA30A1500C38BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F095AC21FA30A1500C38BC3 /* GuitarTabGrabber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F095AC31FA30A1500C38BC3 /* GuitarTabGrabber.xcdatamodel */,
+			);
+			currentVersion = 7F095AC31FA30A1500C38BC3 /* GuitarTabGrabber.xcdatamodel */;
+			path = GuitarTabGrabber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F095AB31FA30A1500C38BC3 /* Project object */;
+}

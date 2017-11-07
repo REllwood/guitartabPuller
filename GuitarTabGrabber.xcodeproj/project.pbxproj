@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		208772551060A4B5F8CBEE9B /* Pods_GuitarTabGrabber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF79F5E99465B2E104824C78 /* Pods_GuitarTabGrabber.framework */; };
+		34C4D4A6713A5DEA0F088C25 /* Pods_GuitarTabGrabberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF2CA4742E6DE19FFAB66A4 /* Pods_GuitarTabGrabberTests.framework */; };
+		47443048F1A2FD29EDFEDEB5 /* Pods_GuitarTabGrabberUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8286440A8E3695DC12C3A3F9 /* Pods_GuitarTabGrabberUITests.framework */; };
 		7F095ABF1FA30A1500C38BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F095ABE1FA30A1500C38BC3 /* AppDelegate.swift */; };
 		7F095AC11FA30A1500C38BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F095AC01FA30A1500C38BC3 /* ViewController.swift */; };
 		7F095AC41FA30A1500C38BC3 /* GuitarTabGrabber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F095AC21FA30A1500C38BC3 /* GuitarTabGrabber.xcdatamodeld */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FC07009BC23A9BD77299670 /* Pods-GuitarTabGrabberUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuitarTabGrabberUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuitarTabGrabberUITests/Pods-GuitarTabGrabberUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ED1C446B32F73203EAF12B5 /* Pods-GuitarTabGrabberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuitarTabGrabberTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuitarTabGrabberTests/Pods-GuitarTabGrabberTests.release.xcconfig"; sourceTree = "<group>"; };
+		45C259496CE8FF6D725EB37E /* Pods-GuitarTabGrabberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuitarTabGrabberTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuitarTabGrabberTests/Pods-GuitarTabGrabberTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BF2CA4742E6DE19FFAB66A4 /* Pods_GuitarTabGrabberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuitarTabGrabberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		744B8E6D8D8D1BE455F7002C /* Pods-GuitarTabGrabber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuitarTabGrabber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuitarTabGrabber/Pods-GuitarTabGrabber.debug.xcconfig"; sourceTree = "<group>"; };
 		7F095ABB1FA30A1500C38BC3 /* GuitarTabGrabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarTabGrabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F095ABE1FA30A1500C38BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F095AC01FA30A1500C38BC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		7F095ADA1FA30A1500C38BC3 /* GuitarTabGrabberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuitarTabGrabberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F095ADE1FA30A1500C38BC3 /* GuitarTabGrabberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTabGrabberUITests.swift; sourceTree = "<group>"; };
 		7F095AE01FA30A1500C38BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8286440A8E3695DC12C3A3F9 /* Pods_GuitarTabGrabberUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuitarTabGrabberUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE59D55C4C80CA7FF262226 /* Pods-GuitarTabGrabberUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuitarTabGrabberUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuitarTabGrabberUITests/Pods-GuitarTabGrabberUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BEC63B9B8C6A3DF5C351FA44 /* Pods-GuitarTabGrabber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuitarTabGrabber.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuitarTabGrabber/Pods-GuitarTabGrabber.release.xcconfig"; sourceTree = "<group>"; };
+		FF79F5E99465B2E104824C78 /* Pods_GuitarTabGrabber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuitarTabGrabber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208772551060A4B5F8CBEE9B /* Pods_GuitarTabGrabber.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C4D4A6713A5DEA0F088C25 /* Pods_GuitarTabGrabberTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47443048F1A2FD29EDFEDEB5 /* Pods_GuitarTabGrabberUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				7F095AD21FA30A1500C38BC3 /* GuitarTabGrabberTests */,
 				7F095ADD1FA30A1500C38BC3 /* GuitarTabGrabberUITests */,
 				7F095ABC1FA30A1500C38BC3 /* Products */,
+				CE8169ACE0DCC72FE69F67EA /* Pods */,
+				910402D5856A02C7AD1DF4B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = GuitarTabGrabberUITests;
 			sourceTree = "<group>";
 		};
+		910402D5856A02C7AD1DF4B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF79F5E99465B2E104824C78 /* Pods_GuitarTabGrabber.framework */,
+				4BF2CA4742E6DE19FFAB66A4 /* Pods_GuitarTabGrabberTests.framework */,
+				8286440A8E3695DC12C3A3F9 /* Pods_GuitarTabGrabberUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8169ACE0DCC72FE69F67EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				744B8E6D8D8D1BE455F7002C /* Pods-GuitarTabGrabber.debug.xcconfig */,
+				BEC63B9B8C6A3DF5C351FA44 /* Pods-GuitarTabGrabber.release.xcconfig */,
+				45C259496CE8FF6D725EB37E /* Pods-GuitarTabGrabberTests.debug.xcconfig */,
+				3ED1C446B32F73203EAF12B5 /* Pods-GuitarTabGrabberTests.release.xcconfig */,
+				1FC07009BC23A9BD77299670 /* Pods-GuitarTabGrabberUITests.debug.xcconfig */,
+				9FE59D55C4C80CA7FF262226 /* Pods-GuitarTabGrabberUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F095AE31FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabber" */;
 			buildPhases = (
+				8C11E46087F98BC5DBBD5571 /* [CP] Check Pods Manifest.lock */,
 				7F095AB71FA30A1500C38BC3 /* Sources */,
 				7F095AB81FA30A1500C38BC3 /* Frameworks */,
 				7F095AB91FA30A1500C38BC3 /* Resources */,
+				DF21C1FEBFBD11D98D942836 /* [CP] Embed Pods Frameworks */,
+				8C22034842F4E487F40980A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F095AE61FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabberTests" */;
 			buildPhases = (
+				1CDD2C39FC934D97408246FC /* [CP] Check Pods Manifest.lock */,
 				7F095ACB1FA30A1500C38BC3 /* Sources */,
 				7F095ACC1FA30A1500C38BC3 /* Frameworks */,
 				7F095ACD1FA30A1500C38BC3 /* Resources */,
+				E3F3DAD2891E17E70D2FFBC6 /* [CP] Embed Pods Frameworks */,
+				3520F8E6517327BA763C5816 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F095AE91FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabberUITests" */;
 			buildPhases = (
+				10625BEF589F7F4B1EE6836A /* [CP] Check Pods Manifest.lock */,
 				7F095AD61FA30A1500C38BC3 /* Sources */,
 				7F095AD71FA30A1500C38BC3 /* Frameworks */,
 				7F095AD81FA30A1500C38BC3 /* Resources */,
+				E8A20B75DEA6A288B41F2C65 /* [CP] Embed Pods Frameworks */,
+				EADEAF167152824125672904 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +301,159 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10625BEF589F7F4B1EE6836A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuitarTabGrabberUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CDD2C39FC934D97408246FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuitarTabGrabberTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3520F8E6517327BA763C5816 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuitarTabGrabberTests/Pods-GuitarTabGrabberTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C11E46087F98BC5DBBD5571 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuitarTabGrabber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C22034842F4E487F40980A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuitarTabGrabber/Pods-GuitarTabGrabber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF21C1FEBFBD11D98D942836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GuitarTabGrabber/Pods-GuitarTabGrabber-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuitarTabGrabber/Pods-GuitarTabGrabber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F3DAD2891E17E70D2FFBC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuitarTabGrabberTests/Pods-GuitarTabGrabberTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A20B75DEA6A288B41F2C65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GuitarTabGrabberUITests/Pods-GuitarTabGrabberUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuitarTabGrabberUITests/Pods-GuitarTabGrabberUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EADEAF167152824125672904 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuitarTabGrabberUITests/Pods-GuitarTabGrabberUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F095AB71FA30A1500C38BC3 /* Sources */ = {
@@ -401,6 +603,7 @@
 		};
 		7F095AE41FA30A1500C38BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744B8E6D8D8D1BE455F7002C /* Pods-GuitarTabGrabber.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -414,6 +617,7 @@
 		};
 		7F095AE51FA30A1500C38BC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC63B9B8C6A3DF5C351FA44 /* Pods-GuitarTabGrabber.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -427,6 +631,7 @@
 		};
 		7F095AE71FA30A1500C38BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C259496CE8FF6D725EB37E /* Pods-GuitarTabGrabberTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -442,6 +647,7 @@
 		};
 		7F095AE81FA30A1500C38BC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED1C446B32F73203EAF12B5 /* Pods-GuitarTabGrabberTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -457,6 +663,7 @@
 		};
 		7F095AEA1FA30A1500C38BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC07009BC23A9BD77299670 /* Pods-GuitarTabGrabberUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -471,6 +678,7 @@
 		};
 		7F095AEB1FA30A1500C38BC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE59D55C4C80CA7FF262226 /* Pods-GuitarTabGrabberUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -502,6 +710,7 @@
 				7F095AE51FA30A1500C38BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F095AE61FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabberTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +719,7 @@
 				7F095AE81FA30A1500C38BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F095AE91FA30A1500C38BC3 /* Build configuration list for PBXNativeTarget "GuitarTabGrabberUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +728,7 @@
 				7F095AEB1FA30A1500C38BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

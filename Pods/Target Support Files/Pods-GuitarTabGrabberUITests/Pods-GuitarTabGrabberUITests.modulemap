@@ -1,0 +1,6 @@
+framework module Pods_GuitarTabGrabberUITests {
+  umbrella header "Pods-GuitarTabGrabberUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

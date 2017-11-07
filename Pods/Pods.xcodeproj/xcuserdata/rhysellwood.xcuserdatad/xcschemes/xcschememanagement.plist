@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-GuitarTabGrabber.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GuitarTabGrabberTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GuitarTabGrabberUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftSoup.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4B9216961B9CFAF3805E0DA176ACA1FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52791C44F0B73DCC02EBFE6C6C70E690</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A010DAA619D5F6FECDAC1EF1D38D204E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE5270F60367EE522741689E6DAD9EBF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
